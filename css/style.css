@@ -1,0 +1,75 @@
+body {
+    background-image: url("assets/images/black.png");
+    background-color: #eaeaea;
+}
+
+img {
+    width: 65px;
+    height: 65px;
+}
+
+#nav {
+    border-bottom: 3px solid #ccc;
+}
+
+#bioPic {
+    width: 200px;
+    height: 200px;
+    border: 2px solid white;
+}
+
+#bioJumbotron,
+#Connect {
+    background: #f7f7f7;
+}
+
+.card {
+    margin-bottom: 20px;
+}
+
+#name {
+    background: #4aaaa5;
+    padding: 20px;
+    color: #fff;
+}
+
+.bg-light {
+    border-bottom: 2px solid #ccc;
+    margin-bottom: 20px;
+}
+
+a {
+    color: #777;
+}
+
+h1 {
+    font-size: 28px;
+    color: #4aaaa5;
+}
+
+p {
+    line-height: 1.5;
+    color: #777;
+}
+
+.btn-success {
+    background: #4aaaa5;
+}
+
+#footer {
+    background: #666;
+    width: 100%;
+    padding: 15px;
+    color: #fff;
+    border-top: 3px solid #4aaaa5;
+}
+
+
+/*portfolio page*/
+
+.portPic {
+    width: 300px;
+    height: 200px;
+    margin-bottom: 20px;
+    border: 3px solid #fff;
+}
