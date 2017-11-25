@@ -1,6 +1,6 @@
 body {
-    background-image: url("assets/images/black.png");
-    background-color: #eaeaea;
+    background-image: url("../images/linen.png");
+    background-color: #ccc;
 }
 
 img {
@@ -8,8 +8,28 @@ img {
     height: 65px;
 }
 
-#nav {
-    border-bottom: 3px solid #ccc;
+img:hover {
+    opacity: 0.8;
+}
+
+.container {
+    margin-top: 140px;
+}
+
+.nav {
+    margin-right: 100px;
+}
+
+.navbar {
+    padding: 0;
+}
+
+.main-card {
+    margin-bottom: 20px;
+}
+
+.socia-card {
+    margin-bottom: 80px;
 }
 
 #bioPic {
@@ -18,19 +38,15 @@ img {
     border: 2px solid white;
 }
 
-#bioJumbotron,
-#Connect {
-    background: #f7f7f7;
-}
-
-.card {
-    margin-bottom: 20px;
-}
-
 #name {
     background: #4aaaa5;
     padding: 20px;
     color: #fff;
+}
+
+#name:hover {
+    background: #6ee7e1;
+    color: #c2c2c2;
 }
 
 .bg-light {
@@ -38,8 +54,30 @@ img {
     margin-bottom: 20px;
 }
 
+.work h3 {
+    /* Positioning */
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    /* Box-model */
+    padding: 15px;
+    margin-bottom: 0;
+    font-weight: 300;
+    line-height: 30px;
+    /* Typography */
+    color: #fff;
+    text-align: center;
+    background: #4aaaa5;
+    /* Visual */
+    border-bottom: 0;
+}
+
 a {
     color: #777;
+}
+
+a:hover {
+    color: #c2c2c2;
 }
 
 h1 {
@@ -52,7 +90,7 @@ p {
     color: #777;
 }
 
-.btn-success {
+.btn-info {
     background: #4aaaa5;
 }
 
