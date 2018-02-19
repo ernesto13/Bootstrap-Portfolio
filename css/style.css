@@ -54,6 +54,18 @@ img:hover {
     margin-bottom: 20px;
 }
 
+a {
+    color: #777;
+}
+
+a:hover {
+    color: #c2c2c2;
+}
+
+.work a {
+    color: #fff;
+}
+
 .work h3 {
     /* Positioning */
     position: relative;
@@ -65,19 +77,10 @@ img:hover {
     font-weight: 300;
     line-height: 30px;
     /* Typography */
-    color: #fff;
     text-align: center;
     background: #4aaaa5;
     /* Visual */
     border-bottom: 0;
-}
-
-a {
-    color: #777;
-}
-
-a:hover {
-    color: #c2c2c2;
 }
 
 h1 {
