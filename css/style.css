@@ -4,11 +4,12 @@ body {
 }
 
 img {
-    width: 65px;
     height: 65px;
+    width: 65px;
+
 }
 
-img:hover {
+.socia-card img:hover {
     opacity: 0.8;
 }
 
@@ -30,6 +31,8 @@ img:hover {
 
 .socia-card {
     margin-bottom: 80px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #bioPic {
@@ -69,18 +72,35 @@ a:hover {
 .work h3 {
     /* Positioning */
     position: relative;
-    bottom: 10px;
+    /*bottom: 10px;*/
+    bottom: 83px;
     width: 100%;
-    /* Box-model */
-    padding: 15px;
-    margin-bottom: 0;
-    font-weight: 300;
-    line-height: 30px;
-    /* Typography */
+    /*width: 350px;*/
     text-align: center;
-    background: #4aaaa5;
+    
     /* Visual */
     border-bottom: 0;
+    vertical-align: center;
+    right: 0;
+    /*width: 80%;*/
+    
+    font-size: 1.2em;
+    text-transform: uppercase;
+    background-color: #474747;
+    color: #fff;
+    opacity: .8;
+    
+    width: 100%;
+    /*width: 350px;*/
+    /* Box-model */
+    padding: 15px;
+    font-weight: 300;
+    line-height: 30px;
+
+
+
+    
+
 }
 
 h1 {
@@ -99,10 +119,12 @@ p {
 
 #footer {
     background: #666;
-    width: 100%;
-    padding: 15px;
-    color: #fff;
     border-top: 3px solid #4aaaa5;
+    color: #fff;
+    padding: 15px;
+    width: 100%;
+
+
 }
 
 
@@ -113,4 +135,7 @@ p {
     height: 250px;
     margin-bottom: 20px;
     border: 3px solid #fff;
+}
+.portPic h3 {
+  margin: 0 auto;
 }
