@@ -6,7 +6,6 @@ body {
 img {
     height: 65px;
     width: 65px;
-
 }
 
 .socia-card img:hover {
@@ -50,6 +49,9 @@ img {
 #name:hover {
     background: #6ee7e1;
     color: #c2c2c2;
+    -webkit-box-shadow: 0px 0px 25px #000000;
+    -moz-box-shadow: 0px 0px 25px #000000;
+    box-shadow: 0px 0px 25px #000000;
 }
 
 .bg-light {
@@ -77,30 +79,26 @@ a:hover {
     width: 100%;
     /*width: 350px;*/
     text-align: center;
-    
     /* Visual */
     border-bottom: 0;
     vertical-align: center;
     right: 0;
-    /*width: 80%;*/
-    
     font-size: 1.2em;
     text-transform: uppercase;
     background-color: #474747;
     color: #fff;
     opacity: .8;
-    
     width: 100%;
-    /*width: 350px;*/
     /* Box-model */
     padding: 15px;
     font-weight: 300;
     line-height: 30px;
+}
 
-
-
-    
-
+.work h3:hover {
+    -webkit-box-shadow: 0px 0px 25px #000000;
+    -moz-box-shadow: 0px 0px 25px #000000;
+    box-shadow: 0px 0px 25px #000000;
 }
 
 h1 {
@@ -123,8 +121,6 @@ p {
     color: #fff;
     padding: 15px;
     width: 100%;
-
-
 }
 
 
@@ -136,6 +132,13 @@ p {
     margin-bottom: 20px;
     border: 3px solid #fff;
 }
+
+.portPic:hover {
+    -webkit-box-shadow: 0px 0px 25px #000000;
+    -moz-box-shadow: 0px 0px 25px #000000;
+    box-shadow: 0px 0px 25px #000000;
+}
+
 .portPic h3 {
-  margin: 0 auto;
+    margin: 0 auto;
 }
