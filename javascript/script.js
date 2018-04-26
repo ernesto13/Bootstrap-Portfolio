@@ -1,8 +1,8 @@
 $(document).ready(function() {
     $(".work img").on("mouseenter", function() {
         $(this).animate({
-            opacity: '0.7',
-            height: '230px',
+            opacity: '0.9',
+            height: '290px',
             width: '300px',
         })
     });
