@@ -6,38 +6,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/4.0.0/materia/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-icons/3.0.1/iconfont/material-icons.min.css">
     <link rel="stylesheet" href="css/style.css">
 
     <title>About</title>
 </head>
 
 <body>
-    <!--nav bar-->
 
 
-    <nav id="nav" class="navbar navbar-light bg-light fixed-top">
-
-        <a href="index.html"><span id="name" class="navbar-brand mb-0 h1">Ernesto F. Samaniego</span></a>
-
-
-
-        <ul class="nav justify-content-end">
-            <li class="nav-item">
-                <a class="nav-link active" href="index.html">About</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="portfolio.html">Portfolio</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contact</a>
-            </li>
-
-        </ul>
-
-
+    <!-- nav -->
+    <nav id="nav" class="navbar navbar-light bg-light navbar-expand-md">
+        <!-- <div class="container"> -->
+        <a class="navbar-brand text-uppercase" id="name" href="index.html">Ernesto F. Samaniego</a><button class="navbar-toggler" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse" id="navcol-1">
+            <ul class="nav navbar-nav ml-auto">
+                <li class="nav-item" role="presentation"><a class="nav-link active" href="index.html">About</a></li>
+                <li class="nav-item" role="presentation"><a class="nav-link" href="portfolio.html">Portfolio</a></li>
+                <li class="nav-item" role="presentation"><a class="nav-link" href="contact.html">Contact</a></li>
+                
+            </ul>
+        </div>
+        <!-- </div> -->
     </nav>
 
-    <!--end of nav bar-->
+    <!-- end of nav -->
+
+    
 
     <div class="container">
         <div class="row">
@@ -53,7 +51,7 @@
                             </div>
                             <div class="card-body ">
                                 <img class="float-left img-fluid mr-5 ml-1 rounded-circle" id="bioPic" src="images/bioPic.jpg" alt="bio pic">
-                                <p class="card-text ">My name is Ernesto Samaniego. Web developer who loves technology, computers and enjoys learning new programming languages. </p>
+                                <p class="card-text mt-2">My name is Ernesto Samaniego. Web developer who loves technology, computers and enjoys learning new programming languages. </p>
 
                             </div>
                             <div class="card-footer text-muted">
@@ -115,8 +113,12 @@
 
     <!--end of footer-->
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.bundle.min.js"></script>
+
     <script type="text/javascript" src="javascript/script.js"></script>
+
+
 </body>
 
 </html>

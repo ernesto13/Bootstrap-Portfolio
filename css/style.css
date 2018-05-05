@@ -13,19 +13,28 @@ img {
 }
 
 .container {
-    margin-top: 140px;
+    margin-top: 60px;
 }
 
 .nav {
-    margin-right: 100px;
+    margin-right: 80px;
 }
 
 .navbar {
     padding: 0;
 }
 
+.nav-item {
+    margin-left: 40px;
+    font-size: 17px;
+}
+
 .main-card {
     margin-bottom: 20px;
+}
+
+.card-text {
+    color: #000;
 }
 
 .socia-card {
@@ -34,15 +43,22 @@ img {
     margin-right: auto;
 }
 
+.form-control {
+    outline: red;
+}
+
 #bioPic {
     width: 200px;
     height: 200px;
-    border: 2px solid white;
+    border: 2px solid #49aaa5;
+    -webkit-box-shadow: 0px 0px 19px #000000;
+    -moz-box-shadow: 0px 0px 19px #000000;
+    box-shadow: 0px 0px 19px #000000;
 }
 
 #name {
     background: #4aaaa5;
-    padding: 20px;
+    padding: 13px;
     color: #fff;
 }
 
@@ -122,7 +138,6 @@ p {
     padding: 15px;
     width: 100%;
 }
-
 
 /*portfolio page*/
 
