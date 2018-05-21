@@ -28,7 +28,7 @@ $(document).ready(function() {
 
             $(this).get(0).reset()
             alertify.success('Thank You for your time!');
-            // event.preventDefault();
+            event.preventDefault();
 
         }
     });
